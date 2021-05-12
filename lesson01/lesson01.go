@@ -3,7 +3,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main() { //同一フォルダ内にfunc main()を使用した別の「.go」ファイルがあるとエラーがでる
 	// var num int      //varで変数を宣言・変数名をつける・データの種類を入れる(この場合数値を入れるのでintを入れる)
 	// num = 1          //変数numに1を代入
 

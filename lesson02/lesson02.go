@@ -11,7 +11,7 @@ import (
 	"reflect"
 )
 
-func main() {
+func main() { //同一フォルダ内にfunc main()を使用した別の「.go」ファイルがあるとエラーがでる
 	// 数値型
 	// 整数型 「Int8」「Int16」「Int32」「Int64」がある
 	// 数が大きくなるにつれて使える桁数が増える
