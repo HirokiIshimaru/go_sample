@@ -8,3 +8,6 @@ func main() { //同一フォルダ内にfunc main()を使用した別の「.go�
 	fmt.Println("こんにちは")
 	fmt.Println("こんばんわ")
 }
+
+// goファイルをターミナルで動かす方法
+// go run ファイル名

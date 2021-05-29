@@ -7,8 +7,9 @@ func main() {
 	x := 10
 	y := 12
 
+	// 簡易文付きif文
 	if age := x + y; age >= 20 {
-		fmt.Println("adult")
+		fmt.Println("adult", age)
 	} else if age == 0 {
 		fmt.Println("baby")
 	} else {
